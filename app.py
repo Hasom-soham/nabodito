@@ -10,7 +10,3 @@ app.register_blueprint(page_view)
 def index():
     return redirect(url_for("page_view_controller.home_page"))
 
-
-@app.route("/about")
-def about():
-    return redirect(url_for("page_view_controller.about_page"))
