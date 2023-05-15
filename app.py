@@ -10,3 +10,6 @@ app.register_blueprint(page_view)
 def index():
     return redirect(url_for("page_view_controller.home_page"))
 
+
+if __name__ == '__main__':
+    app.run()
