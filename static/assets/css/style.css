@@ -2412,3 +2412,9 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+@media only screen and (max-width: 400px) {
+  #moto {
+    display: none;
+  }
+}
